@@ -1,0 +1,66 @@
+# ---------------------------
+# 공통 무시 파일
+# ---------------------------
+.DS_Store
+*.log
+logs
+node_modules/
+dist/
+build/
+out/
+*.swp
+
+# ---------------------------
+# IDE 무시 파일 (IntelliJ / VSCode / Eclipse 등 포함)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# IntelliJ 관련 추가
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ---------------------------
+# Vite / React / Frontend
+# ---------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+
+# ---------------------------
+# Gradle / Java
+# ---------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------------------------
+# 기타
+backend/HELP.md
